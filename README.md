@@ -1,45 +1,47 @@
-# TextBasedGame
-This is a text-based game I made in a college class using the Python coding language
+# Text-Based Pokémon Adventure Game
 
+## Overview
+This Text-Based Pokémon Adventure Game is a console application developed in Python. It immerses players in a Pokémon stadium environment where they navigate through various rooms, collect Pokémon, and ultimately battle a gym leader to win a badge. The game runs in terminal or command prompt environments and offers a text-based interface.
 
-Text-Based Pokémon Adventure Game
-Description
-This Text-Based Pokémon Adventure Game is a console Python application where players navigate through a series of rooms in a Pokémon stadium, collecting Pokémon and battling a gym leader to win a badge. Players will need to use directions to move through rooms, pick up items, and manage an inventory to ensure they are ready for the final challenge.
+## Features
+- **Navigation**: Use simple text commands to move between different rooms within the game.
+- **Item Collection**: Collect critical items needed to progress and prepare for the final challenge.
+- **Boss Battle**: Engage in a final boss battle against the gym leader to test your preparation and strategy.
+- **Text-Based Interface**: Experience the game through a colorful text-based interface, thanks to the Colorama library.
 
-Features
-Navigate through different rooms using simple text commands.
-Collect items that are critical to progressing in the game.
-A final boss battle in the gym to test if you have collected all necessary items.
-Text-based interface that runs in the terminal or command prompt.
+## Dependencies
+- **Colorama**: This library is used to enhance text readability by adding color to the console output. It can be installed via pip:
+  ```bash
+  pip install colorama
+  
+## Installation Instructions
 
-Dependencies
-This game uses the colorama library to enhance text readability with colors.
+- **Step 1**: Download the Game
+- Navigate to the GitHub repository in your web browser.
+- Click the green Code button near the top right of the file list.
+- Select Download ZIP from the dropdown menu.
+- Unzip the downloaded file on your computer to access the game files.
+- **Step 2**: Prepare the Environment
+- Open a terminal or command prompt.
+- Navigate to the directory containing the game's files:
+  ```bash
+  cd path/to/game
 
+- Install the required Python libraries:
+  ```bash
+  pip install colorama
+- **Step 3**: Run the Game
+- Start the game by typing:
+  ```bash
+  python text_pokemon_adventure.py
 
-Instructions for installation and gameplay:
-Step 1: 
-Navigate to the repository on GitHub in your web browser.
-Look for the green Code button near the top right of the file list.
-Click on it, then select Download ZIP from the dropdown menu.
-Unzip the downloaded file on your computer to access the game files.
+## Gameplay Instructions
+1. Starting the Game: At launch, you will receive a mission brief. Follow the instructions to begin your adventure.
+2. Navigation: Use commands North, East, South, West to move through rooms.
+3. Interacting with Items: When you encounter an item, you can pick it up by typing Yes or leave it by typing No.
+4. Objective: Your main goal is to collect all Pokémon and defeat the gym leader in the gym.
+5. Exiting the Game: At any movement prompt, you can type Exit to quit the game.
 
-Step 2: 
-After downloading, navigate to the game's directory in a terminal or command prompt and follow the instructions for running the game with Python
-type: cd path/to/game
-Press Enter
-type: python text_pokemon_adventure.py
-
-Game Instructions
-
-At the start, you will receive a brief on your mission.
-Use the commands North, East, South, West to navigate through rooms.
-When you encounter an item, you will be prompted to pick it up. Type Yes to add it to your inventory or No to leave it.
-Your goal is to collect all Pokémon before facing the gym leader in the gym.
-The game concludes when you either defeat the gym leader with all Pokémon collected or decide to exit the game.
-Commands
-
-Move: Type the direction (North, East, South, West) in which you wish to move.
-Pick up items: Respond with Yes when asked if you wish to pick up an item.
-Exit: Type Exit at any movement prompt to quit the game.
-
-THE .png FILES DISPLAY THE CORRECT NAVIGATION TO WIN. DO NOT VIEW THEM UNLESS YOU HAVE ALREADY COMPLETED THE GAME OR NEED HELP.
+## Additional Resources
+- Navigation Maps: The .png files included in the game directory display the correct paths to win. These should only be viewed after completing the game or if assistance is required.
+- Thank you for trying the Text-Based Pokémon Adventure Game! Enjoy your journey and good luck defeating the gym leader!
